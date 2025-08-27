@@ -18,6 +18,9 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Modelos y datos cacheados o generados
+models_cache/
+
 # Archivos específicos del sistema operativo
 .DS_Store
 Thumbs.db
