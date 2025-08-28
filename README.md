@@ -45,16 +45,16 @@ Un sistema completo de análisis de sentimientos utilizando **LightGBM** y **Sen
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   FastAPI       │    │   ML Pipeline   │
-│   (Gradio)      │◄──►│   REST API      │◄──►│   LightGBM      │
-│                 │    │                 │    │   + Embeddings  │
+│   Frontend          │    │   FastAPI          │    │       ML Pipeline   │
+│   (Gradio)          │◄──►│  REST API         │◄──►│      LightGBM      │
+│                     │    │                    │    │       + Embeddings  │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                               │
                               ▼
                     ┌─────────────────┐
-                    │   Data Layer    │
-                    │   Caching &     │
-                    │   Preprocessing │
+                    │       Data Layer   │
+                    │       Caching &    │
+                    │      Preprocessing │
                     └─────────────────┘
 ```
 
